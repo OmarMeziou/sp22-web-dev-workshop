@@ -1,0 +1,34 @@
+
+
+
+.header-left, .header-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+}
+
+
+.header-left img{
+    position: relative;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: linear-gradient();
+}
+
+.header-left h1{
+    margin: 0;
+    color: #9900ff;
+    letter-spacing: 4px;
+    font-weight: 100;
+    font-size: 28px;
+
+    padding-left: 1rem;
+}
+
+.header-right a{
+    color: #777;
+    text-decoration: none;
+    white-space: nowrap;
+}
